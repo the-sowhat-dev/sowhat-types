@@ -1,0 +1,4 @@
+echo 'src' >> .npmignore
+echo 'node_modules' >> .npmignore
+echo 'tsconfig.json' >> .npmignore
+echo '*.log' >> .npmignore
