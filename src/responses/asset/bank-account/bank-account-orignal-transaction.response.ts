@@ -1,6 +1,6 @@
 export interface BankAccountOriginalTransactionResponse {
   value: number;
   currency: string;
-  commission: number | null;
+  commission: number;
   commissionCurrency: string | null;
 }

@@ -1,9 +1,9 @@
 export interface CoOwnerResponse {
   id: string;
-  customName: string;
+  name: string;
+  imageUrl: string | null;
   email: string | null;
   phone: string | null;
-  customImage: string | null;
   updatedAt: Date;
   createdAt: Date;
 }

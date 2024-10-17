@@ -1,6 +1,5 @@
 export interface AssetCoOwnerResponse {
   id: string;
-  customName: string;
+  name: string;
   coOwnershipShare: number;
-  coOwnerFinancialShare: number;
 }

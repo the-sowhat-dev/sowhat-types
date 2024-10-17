@@ -1,12 +1,10 @@
-import { CreateAssetCoOwnerInput } from "../create-asset-co-owner.input";
+import { AssetCoOwnerInput } from "../asset-co-owner.input";
 
 export interface CreateRealEstateInput {
-  userId: string;
+  name: string;
+  imageUrl: string | null;
+  value: number;
+  currency: string;
   gotLoan: boolean;
-  customTitle: string;
-  customImage: string | null;
-  price: number;
-  note: string | null;
-  isMainResidence: boolean;
-  coOwner: CreateAssetCoOwnerInput | null;
+  coOwner: AssetCoOwnerInput | null;
 }

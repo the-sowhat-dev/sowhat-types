@@ -1,15 +1,13 @@
-import { AssetCoOwnerResponse } from '../asset-co-owner.response';
+import { AssetCoOwnerResponse } from "../asset-co-owner.response";
 
 export interface RealEstateResponse {
   id: string;
-  userId: string;
+  name: string;
+  imageUrl: string | null;
+  value: number;
+  currency: string;
   gotLoan: boolean;
-  customTitle: string;
-  customImage: string | null;
-  price: number;
-  note: string | null;
-  isMainResidence: boolean;
   coOwner: AssetCoOwnerResponse | null;
-  createdAt: Date;
   updatedAt: Date;
+  createdAt: Date;
 }

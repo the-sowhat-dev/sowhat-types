@@ -1,20 +1,13 @@
-import { MobilityTypeEnum } from '../../../enums/mobility-type.enum';
-import { AssetCoOwnerResponse } from '../asset-co-owner.response';
-import { AssetDateOfAcquisitionResponse } from '../asset-date-of-acquisition.response';
+import { AssetCoOwnerResponse } from "../asset-co-owner.response";
 
 export interface MobilityResponse {
   id: string;
-  userId: string;
-  customImage: string | null;
-  customTitle: string;
-  price: number;
-  licenceNumber: string | null;
-  dateOfAcquisition: AssetDateOfAcquisitionResponse | null;
-  mobilityType: MobilityTypeEnum;
-  mileage: number | null;
-  note: string | null;
+  name: string;
+  imageUrl: string | null;
+  value: number;
+  currency: string;
   gotLoan: boolean;
   coOwner: AssetCoOwnerResponse | null;
-  createdAt: Date;
   updatedAt: Date;
+  createdAt: Date;
 }
