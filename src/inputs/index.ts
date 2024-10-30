@@ -1,9 +1,6 @@
 // Asset
 export * from "./asset";
 
-// Auth
-export * from "./auth/logout-user.input";
-
 // Budget
 export * from "./budget";
 

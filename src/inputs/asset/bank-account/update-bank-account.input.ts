@@ -1,5 +1,6 @@
 export interface UpdateBankAccountInput {
   id: string;
-  newName?: string;
+  name?: string;
+  alertThreshold?: number;
   position?: number;
 }

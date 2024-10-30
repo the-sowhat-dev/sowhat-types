@@ -2,9 +2,7 @@
 export * from "./asset";
 
 // Auth
-export * from "./auth/access-tokens.response";
-export * from "./auth/authentication-access.response";
-export * from "./auth/logout-user.response";
+export * from "./auth/user-authenticated.response";
 
 // Budget
 export * from "./budget";

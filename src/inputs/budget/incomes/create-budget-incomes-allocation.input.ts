@@ -1,8 +1,8 @@
 export interface CreateBudgetIncomesAllocationInput {
   name: string;
-  theoricalValuePerMonth: number;
-  currency: string;
-  color: string;
   icon: string;
-  note: string | null;
+  color: string;
+  currency: string;
+  theoricalValuePerMonth: number;
+  bankAccountId: string | null;
 }

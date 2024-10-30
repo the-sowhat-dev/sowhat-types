@@ -1,28 +1,23 @@
 import { BudgetSavingsAllocationResponse } from "./budget-savings-allocation.response";
 
-export interface BudgetSavingsResponse {
+export interface UserSavingsBudgetResponse {
   /**
-   * e.g. "12-2024"
+   * equal total user's savings, i.e. `sum of savings bank accounts of type SAVING`
    */
-  id: string;
-
-  currency: string;
-
-  /**
-   * equal total user's savings, i.e. `other assets` + `sum of savings bank accounts`
-   */
-  totalBalance: number;
+  availableSavingsBalance: number;
 
   /**
    * It is the value diff between the actual totalBalance and the value of the last report
    * If `null`, there's no last report.
    */
-  vsLastMonth: number | null;
+  // vsLastMonth: number | null;
 
   /**
    * Equal `other assets` total balance
    */
   lockedInSavingsBalance: number;
+
+  currency: string;
 
   allocations: BudgetSavingsAllocationResponse[];
 }

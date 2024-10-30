@@ -1,4 +1,5 @@
 // Bank Account
+export * from "./bank-account/fetch-bank-accounts-list.input";
 export * from "./bank-account/update-bank-account.input";
 
 // Bank Account Transaction
