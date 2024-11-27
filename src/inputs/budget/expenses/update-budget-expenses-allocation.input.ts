@@ -4,6 +4,7 @@ export interface UpdateBudgetExpensesAllocationInput {
   icon?: string;
   color?: string;
   currency?: string;
+  position?: number;
   theoricalValuePerMonth?: number;
   bankAccountId?: string | null;
 }

@@ -1,7 +1,8 @@
+import { BudgetTypeEnum } from "../../../../enums/budget-type.enum";
+
 export interface AllocateTransactionInput {
   transactionId: string;
-  allocationId: string;
+  allocationId: string | null;
   applicationDate: Date;
-  // isAutomated: boolean
-  // doesTheTransactionPrévue: boolean
+  type: BudgetTypeEnum;
 }

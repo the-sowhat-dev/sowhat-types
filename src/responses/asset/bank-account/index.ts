@@ -1,4 +1,5 @@
 // Transaction
+export * from "./transaction/transaction-allocated.response";
 export * from "./transaction/transaction-budget-allocations.response";
 
 // Bank Account
@@ -11,3 +12,5 @@ export * from "./bank-account-updated.response";
 export * from "./bank-account.response";
 export * from "./bank-accounts-batch-updated.response";
 export * from "./bank-accounts.response";
+export * from "./user-bank-accounts.refreshed.output";
+export * from "./user-bank-account.refreshed.output";

@@ -1,6 +1,6 @@
 export interface UpdateUserCoOwnerInput {
   id: string;
   name?: string;
-  email?: string;
-  imageUrl?: string;
+  email?: string | null;
+  imageUrl?: string | null;
 }

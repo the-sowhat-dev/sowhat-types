@@ -6,10 +6,12 @@ export interface BudgetIncomesAllocationResponse {
   name: string;
   icon: string;
   color: string;
-  budget: string;
+  budget: string; // like "11-2024"
   theoricalValuePerMonth: number;
+  isDefault: boolean;
   value: number;
   currency: string;
+  position: number;
   transactions: BankAccountTransactionResponse[];
   bankAccount: BankAccountResponse | null;
   updatedAt: Date | null;

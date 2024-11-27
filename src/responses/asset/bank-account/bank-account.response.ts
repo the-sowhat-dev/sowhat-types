@@ -1,4 +1,5 @@
 import { BankAccountTypeEnum } from "../../../enums/bank-account-type.enum";
+import { BankAccountTransactionResponse } from "./bank-account-transaction.response";
 
 export interface BankAccountResponse {
   id: string;
@@ -12,4 +13,6 @@ export interface BankAccountResponse {
   gotLoan: boolean;
   iban: string | null;
   position: number;
+  deletedByBank: Date | null;
+  transactions: BankAccountTransactionResponse[];
 }

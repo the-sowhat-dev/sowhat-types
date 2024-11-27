@@ -5,4 +5,5 @@ export interface CreateBudgetIncomesAllocationInput {
   currency: string;
   theoricalValuePerMonth: number;
   bankAccountId: string | null;
+  createPreviousMonth: boolean;
 }
