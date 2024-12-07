@@ -5,6 +5,6 @@ export interface CreateMobilityInput {
   imageUrl: string | null;
   value: number;
   currency: string;
-  gotLoan: boolean;
   coOwner: AssetCoOwnerInput | null;
+  loanId: string | null;
 }

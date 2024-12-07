@@ -1,4 +1,5 @@
 import { AssetCoOwnerResponse } from "../asset-co-owner.response";
+import { LoanResponse } from "../bank-account/loan/loan.response";
 
 export interface MobilityResponse {
   id: string;
@@ -6,7 +7,7 @@ export interface MobilityResponse {
   imageUrl: string | null;
   value: number;
   currency: string;
-  gotLoan: boolean;
+  loan: LoanResponse | null;
   coOwner: AssetCoOwnerResponse | null;
   updatedAt: Date;
   createdAt: Date;

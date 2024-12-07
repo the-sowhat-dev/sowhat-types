@@ -30,7 +30,6 @@ export * from "./asset/user-assets.response";
 
 // Common
 export * from "./common/pagination.response";
-export * from "./common/time-pagination.response";
 
 // Report
 export * from "./report";

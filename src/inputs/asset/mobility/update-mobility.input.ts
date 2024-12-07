@@ -7,5 +7,5 @@ export interface UpdateMobilityInput {
   value?: number;
   currency?: string;
   coOwner?: AssetCoOwnerInput | null;
-  gotLoan?: boolean;
+  loanId?: string | null;
 }

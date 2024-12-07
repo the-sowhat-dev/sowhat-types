@@ -1,3 +1,4 @@
+import { LoanResponse } from "../bank-account";
 import { AssetCoOwnerResponse } from "../asset-co-owner.response";
 
 export interface RealEstateResponse {
@@ -6,7 +7,7 @@ export interface RealEstateResponse {
   imageUrl: string | null;
   value: number;
   currency: string;
-  gotLoan: boolean;
+  loan: LoanResponse | null;
   coOwner: AssetCoOwnerResponse | null;
   updatedAt: Date;
   createdAt: Date;
