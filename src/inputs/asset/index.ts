@@ -17,4 +17,5 @@ export * from "./real-estate/update-real-estate.args";
 export * from "./other-asset/create-other-asset.input";
 export * from "./other-asset/update-other-asset.input";
 
+// Co Owner
 export * from "./asset-co-owner.input";
