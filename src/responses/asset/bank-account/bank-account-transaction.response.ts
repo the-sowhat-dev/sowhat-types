@@ -19,6 +19,7 @@ export interface BankAccountTransactionResponse {
   lastUpdate: Date | null;
   deleted: Date | null; // If set, transaction has been deleted from the bank
   type: BankAccountTransactionTypeEnum;
+  internalTransfer: boolean;
   originalTransaction: BankAccountOriginalTransactionResponse | null; // If the transaction has an original_currency
   country: string | null;
   category: BudgetTypeEnum;

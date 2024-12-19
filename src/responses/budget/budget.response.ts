@@ -4,8 +4,10 @@ import { BudgetIncomesAllocationResponse } from "./incomes/budget-incomes-alloca
 export interface BudgetResponse {
   id: string;
   expenses: BudgetExpensesAllocationResponse[];
-  incomes: BudgetIncomesAllocationResponse[];
   unallocatedExpensesTransactionsBalance: number;
+  internalTransfersExpensesBalance: number;
+  incomes: BudgetIncomesAllocationResponse[];
   unallocatedIncomesTransactionsBalance: number;
+  internalTransfersIncomesBalance: number;
   currency: string;
 }

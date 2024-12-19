@@ -5,6 +5,8 @@ import { BankAccountTransactionResponse } from "./bank-account-transaction.respo
 export interface BankAccountResponse {
   id: string;
   powensId: number;
+  powensConnectionId: number;
+  image: string | null;
   name: string;
   balance: number | null;
   comingBalance: number | null;
