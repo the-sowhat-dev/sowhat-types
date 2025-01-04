@@ -12,6 +12,7 @@ export interface BankAccountTransactionResponse {
   value: number | null; // try to fetch the value from the value, formatted_value
   currency: string | null; // It is the Currency of the account (but get it from the formated_value)
   name: string;
+  originalName: string;
   coming: boolean;
   active: boolean;
   cardNumber: string | null;
