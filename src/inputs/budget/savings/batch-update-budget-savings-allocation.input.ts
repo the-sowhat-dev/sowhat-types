@@ -3,4 +3,5 @@ export interface BatchUpdateBudgetSavingsAllocationInput {
   theoricalValuePerMonth?: number;
   balance?: number;
   currency: string;
+  position?: number;
 }

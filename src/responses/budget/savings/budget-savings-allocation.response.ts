@@ -10,6 +10,7 @@ export interface BudgetSavingsAllocationResponse {
   currency: string;
   currentMonthlyOperation: SavingsMonthlyOperationResponse | null;
   monthlyOperations: SavingsMonthlyOperationResponse[];
+  position: number;
   isDefault: boolean;
   createdAt: Date;
   updatedAt: Date | null;
