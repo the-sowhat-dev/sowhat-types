@@ -3,6 +3,7 @@ export * from "./bank-account/update-bank-account.input";
 
 // Bank Account Transaction
 export * from "./bank-account/transaction/allocate-transaction.input";
+export * from "./bank-account/transaction/allocate-multiple-transactions.input";
 export * from "./bank-account/transaction/update-bank-account-transaction.input";
 
 // Mobility
@@ -19,3 +20,7 @@ export * from "./other-asset/update-other-asset.input";
 
 // Co Owner
 export * from "./asset-co-owner.input";
+
+// User Assets
+export * from "./batch-update-user-asset.input";
+export * from "./batch-update-user-assets.input";

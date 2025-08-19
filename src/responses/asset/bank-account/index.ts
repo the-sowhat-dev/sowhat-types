@@ -3,6 +3,7 @@ export * from "./loan/loan.response";
 
 // Transaction
 export * from "./transaction/transaction-allocated.response";
+export * from "./transaction/multiple-transactions-allocation.response";
 
 // Bank Account
 export * from "./bank-account-balances.response";

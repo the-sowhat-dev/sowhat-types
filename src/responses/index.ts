@@ -35,8 +35,12 @@ export * from "./user";
 
 // Shared
 export * from "./asset/asset-co-owner.response";
-export * from "./asset/user-assets.response";
 export * from "./asset/user-assets-balances.response";
+export * from "./asset/user-assets-batch-updated.response";
+export * from "./asset/user-assets.response";
 
 // Report
 export * from "./report";
+
+// Questions
+export * from "./questions";

@@ -7,6 +7,7 @@ export interface RealEstateResponse {
   imageUrl: string | null;
   value: number;
   currency: string;
+  position: number;
   loan: LoanResponse | null;
   coOwner: AssetCoOwnerResponse | null;
   updatedAt: Date;

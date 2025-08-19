@@ -1,6 +1,6 @@
 {
   "name": "sowhat-types",
-  "version": "2.0.126",
+  "version": "2.0.149",
   "description": "Sowhat types",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup"
+    "build": "tsup",
+    "publish-new-version": "node scripts/publish.js"
   },
   "author": "hugobayoud",
   "license": "ISC",

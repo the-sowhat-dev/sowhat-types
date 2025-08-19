@@ -21,3 +21,7 @@ export * from "./savings/savings-monthly-operation.response";
 export * from "./savings/user-savings-budget.response";
 
 export * from "./budget.response";
+
+// Swipable Budget
+export * from "./swipable-budget.response";
+export * from "./swipable-budgets.response";

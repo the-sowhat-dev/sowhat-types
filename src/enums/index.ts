@@ -12,3 +12,5 @@ export * from "./powens-connection-state.enum";
 export * from "./powens-user-status.enum";
 export * from "./supported-currency-symbol.enum";
 export * from "./user-status.enum";
+export * from "./question-category.enum";
+export * from "./question-type.enum";
