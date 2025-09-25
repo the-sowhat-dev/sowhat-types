@@ -1,14 +1,13 @@
 import { QuestionCategoryEnum } from "../../enums/question-category.enum";
 import { QuestionTypeEnum } from "../../enums/question-type.enum";
-import { UpdateQuestionOptionInput } from "./update-question-option.input";
+import { QuestionOptionInput } from "./question-option.input";
 
 export interface UpdateQuestionInput {
   text?: string;
   description?: string;
   category?: QuestionCategoryEnum;
-  type?: QuestionTypeEnum;
+  type?: QuestionTypeEnum; // Changing the type involves a new version of the question
   isRequired?: boolean;
   isAccessible?: boolean;
-  position?: number;
-  options?: UpdateQuestionOptionInput[];
+  options?: QuestionOptionInput[]; // Changing/Deleting/Creating one of the options' key involves a new version of the question
 }

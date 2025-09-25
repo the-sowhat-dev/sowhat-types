@@ -26,6 +26,9 @@ export * from "./powens/powens-manage-webview.response";
 export * from "./powens/powens-reconnect-webview.response";
 export * from "./powens/powens-connect-webview.response";
 
+// Project
+export * from "./project";
+
 // Statistics
 export * from "./statistics/global-wealth-statistics.response";
 export * from "./statistics/user-statistics.response";

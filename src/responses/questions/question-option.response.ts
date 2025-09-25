@@ -1,6 +1,4 @@
 export interface QuestionOptionResponse {
-  id: string;
-  value: string;
-  label: string; // display label
-  position: number;
+  key: string;
+  label: string; // display label for the user: e.g. "Employed", "Unemployed", "Student", ..
 }
