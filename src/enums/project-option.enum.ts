@@ -1,0 +1,5 @@
+export enum ProjectOptionEnum {
+  BEGINNER = "BEGINNER",
+  INTERMEDIATE = "INTERMEDIATE",
+  ADVANCED = "ADVANCED",
+}

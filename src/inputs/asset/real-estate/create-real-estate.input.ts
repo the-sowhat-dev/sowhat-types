@@ -1,10 +1,10 @@
-import { AssetCoOwnerInput } from "../asset-co-owner.input";
+import { RealEstateTypeEnum } from "../../../enums/real-estate-type.enum";
 
 export interface CreateRealEstateInput {
   name: string;
-  imageUrl: string | null;
+  type: RealEstateTypeEnum;
   value: number;
-  currency: string;
-  coOwner: AssetCoOwnerInput | null;
-  loanId: string | null;
+  gotLoan: boolean;
+  loanRepaymentCompleted: boolean;
+  iOwnShare: number;
 }

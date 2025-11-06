@@ -1,4 +1,3 @@
-import { AssetCoOwnerResponse } from "../asset-co-owner.response";
 import { BankAccountTypeEnum } from "../../../enums/bank-account-type.enum";
 import { BankAccountTransactionResponse } from "./bank-account-transaction.response";
 
@@ -18,5 +17,5 @@ export interface BankAccountResponse {
   position: number;
   deletedByBank: Date | null;
   transactions: BankAccountTransactionResponse[];
-  coOwner: AssetCoOwnerResponse | null;
+  iOwnShare: number; // Between 0 and 100
 }

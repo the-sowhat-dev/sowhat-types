@@ -1,4 +1,3 @@
-import { AssetCoOwnerResponse } from "../asset-co-owner.response";
 import { LoanResponse } from "../bank-account/loan/loan.response";
 
 export interface MobilityResponse {
@@ -9,7 +8,7 @@ export interface MobilityResponse {
   currency: string;
   position: number;
   loan: LoanResponse | null;
-  coOwner: AssetCoOwnerResponse | null;
+  iOwnShare: number; // Between 0 and 100
   updatedAt: Date;
   createdAt: Date;
 }

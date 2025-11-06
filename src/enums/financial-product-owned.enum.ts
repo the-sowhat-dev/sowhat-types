@@ -1,0 +1,9 @@
+export enum FinancialProductOwnedEnum {
+  LIVRET_A_LDD = "LIVRET_A_LDD",
+  ASSURANCE_VIE = "ASSURANCE_VIE",
+  COMPTE_A_TERME = "COMPTE_A_TERME",
+  PEA = "PEA",
+  PER = "PER",
+  EPARGNE_SALARIALE = "EPARGNE_SALARIALE",
+  OTHER = "OTHER",
+}

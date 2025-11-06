@@ -4,4 +4,5 @@ export interface UpdateUserInput {
   currency?: AvailableCurrencyEnum;
   consentToBudget?: boolean;
   newTransferIntoDefault?: boolean;
+  hasCompletedOnboarding?: boolean;
 }

@@ -1,9 +1,9 @@
-import { ProjectKeyEnum } from "../../enums/project-key.enum";
+import { ProjectNeedEnum } from "../../enums/project-need.enum";
 
 export interface FinancialSummariesFiltersInput {
   offset: number;
   limit: number;
-  projectKeys?: ProjectKeyEnum[];
+  projectNeeds?: ProjectNeedEnum[];
   minTotalSavings?: number;
   maxTotalSavings?: number;
   minTotalCheckings?: number;

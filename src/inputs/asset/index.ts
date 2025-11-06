@@ -12,14 +12,11 @@ export * from "./mobility/update-mobility.input";
 
 // Real Estate
 export * from "./real-estate/create-real-estate.input";
-export * from "./real-estate/update-real-estate.args";
+export * from "./real-estate/update-real-estate.input";
 
 // Other Asset
 export * from "./other-asset/create-other-asset.input";
 export * from "./other-asset/update-other-asset.input";
-
-// Co Owner
-export * from "./asset-co-owner.input";
 
 // User Assets
 export * from "./batch-update-user-asset.input";

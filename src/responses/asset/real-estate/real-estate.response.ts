@@ -1,15 +1,16 @@
-import { LoanResponse } from "../bank-account";
-import { AssetCoOwnerResponse } from "../asset-co-owner.response";
+import { AvailableCurrencyEnum } from "../../../enums";
+import { RealEstateTypeEnum } from "../../../enums/real-estate-type.enum";
 
 export interface RealEstateResponse {
   id: string;
   name: string;
-  imageUrl: string | null;
+  type: RealEstateTypeEnum;
   value: number;
-  currency: string;
+  currency: AvailableCurrencyEnum;
   position: number;
-  loan: LoanResponse | null;
-  coOwner: AssetCoOwnerResponse | null;
+  gotLoan: boolean;
+  loanRepaymentCompleted: boolean;
+  iOwnShare: number;
   updatedAt: Date;
   createdAt: Date;
 }

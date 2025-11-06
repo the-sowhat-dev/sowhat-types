@@ -7,12 +7,6 @@ export * from "./auth/user-authenticated.response";
 // Budget
 export * from "./budget";
 
-// Co Owner
-export * from "./co-owner/co-owner-deleted.response";
-export * from "./co-owner/co-owner-updated.response";
-export * from "./co-owner/co-owner.response";
-export * from "./co-owner/user-co-owner.response";
-
 // Common
 export * from "./common/pagination.response";
 
@@ -37,7 +31,6 @@ export * from "./statistics/user-statistics.response";
 export * from "./user";
 
 // Shared
-export * from "./asset/asset-co-owner.response";
 export * from "./asset/user-assets-balances.response";
 export * from "./asset/user-assets-batch-updated.response";
 export * from "./asset/user-assets.response";
