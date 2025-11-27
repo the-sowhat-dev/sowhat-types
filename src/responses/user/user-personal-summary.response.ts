@@ -1,4 +1,5 @@
-import { FinancialProductOwnedEnum } from "../../enums/financial-product-owned.enum";
+import { ProfessionEnum, ProfessionStatusEnum } from "../../enums";
+import { FinancialProductEnum } from "../../enums/financial-product.enum";
 
 export interface UserPersonalSummaryResponse {
   id: string;
@@ -9,10 +10,13 @@ export interface UserPersonalSummaryResponse {
   childrenNumber: number | null;
   childrenBirthYears: number[] | null;
   maritalStatus: string | null;
-  profession: string | null;
-  professionDetails: string | null;
+  profession: ProfessionEnum | null;
+  professionStatus: ProfessionStatusEnum | null;
   salaryRange: string | null;
   postalCode: string | null;
   loanMonthlyPayment: number | null;
-  financialProductsOwned: FinancialProductOwnedEnum[] | null;
+  financialProductsOwned: FinancialProductEnum[] | null;
+  isMainResidenceOwner: boolean | null;
+  personalNetWorthRange: string | null;
+  grossAnnualHouseholdIncomeRange: string | null;
 }

@@ -1,8 +1,0 @@
-export enum QuestionTypeEnum {
-  TEXT = "TEXT",
-  DATE = "DATE",
-  NUMBER = "NUMBER",
-  BOOLEAN = "BOOLEAN",
-  MULTI_CHOICE = "MULTI_CHOICE",
-  SINGLE_CHOICE = "SINGLE_CHOICE",
-}

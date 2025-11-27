@@ -1,13 +1,15 @@
-import { LoanResponse } from "../bank-account/loan/loan.response";
+import { AvailableCurrencyEnum } from "../../../enums/available-currency.enum";
+import { MobilityTypeEnum } from "../../../enums/mobility-type.enum";
 
 export interface MobilityResponse {
   id: string;
   name: string;
-  imageUrl: string | null;
+  type: MobilityTypeEnum;
   value: number;
-  currency: string;
+  currency: AvailableCurrencyEnum;
   position: number;
-  loan: LoanResponse | null;
+  gotLoan: boolean;
+  loanRepaymentCompleted: boolean;
   iOwnShare: number; // Between 0 and 100
   updatedAt: Date;
   createdAt: Date;

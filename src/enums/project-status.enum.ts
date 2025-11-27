@@ -1,0 +1,6 @@
+export enum ProjectStatusEnum {
+  ACTIVE = "ACTIVE",
+  PAUSED = "PAUSED",
+  FULLFILLED = "FULLFILLED",
+  FULLFILLED_BY_US = "FULLFILLED_BY_US",
+}

@@ -1,9 +1,13 @@
+import { AvailableCurrencyEnum } from "../../../enums/available-currency.enum";
+import { MobilityTypeEnum } from "../../../enums/mobility-type.enum";
+
 export interface UpdateMobilityInput {
   id: string;
   name?: string;
-  imageUrl?: string | null;
+  type?: MobilityTypeEnum;
   value?: number;
-  currency?: string;
+  currency?: AvailableCurrencyEnum;
   iOwnShare?: number; // Between 0 and 100
-  loanId?: string | null;
+  gotLoan?: boolean;
+  loanRepaymentCompleted?: boolean;
 }

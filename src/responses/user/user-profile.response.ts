@@ -1,10 +1,13 @@
-import { AvailableCurrencyEnum, UserStatusEnum } from "../../enums";
+import { AvailableCurrencyEnum } from "../../enums/available-currency.enum";
+import { UserStatusEnum } from "../../enums/user-status.enum";
 
 export interface UserProfileResponse {
   id: string;
   currency: AvailableCurrencyEnum;
   status: UserStatusEnum;
   gotPowensUser: boolean;
+  latestTermsOfUsageVersionConsented: string;
+  latestPrivacyPolicyVersionConsented: string;
   createdAt: Date;
   updatedAt: Date;
 }

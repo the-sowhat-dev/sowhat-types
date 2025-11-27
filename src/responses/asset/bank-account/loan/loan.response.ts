@@ -1,3 +1,4 @@
+import { AvailableCurrencyEnum } from "../../../../enums/available-currency.enum";
 import { LoanTypeEnum } from "../../../../enums/loan-type.enum";
 
 export interface LoanResponse {
@@ -9,5 +10,5 @@ export interface LoanResponse {
   availableAmount: number | null;
   rate: number | null;
   type: LoanTypeEnum;
-  currency: string;
+  currency: AvailableCurrencyEnum | null;
 }

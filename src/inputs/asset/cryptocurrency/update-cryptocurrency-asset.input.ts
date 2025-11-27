@@ -1,8 +1,6 @@
 import { AvailableCryptocurrencySymbolEnum } from "../../../enums/available-cryptocurrency-symbol.enum";
 
-export interface CryptocurrencyResponse {
+export interface UpdateCryptocurrencyAssetInput {
   symbol: AvailableCryptocurrencySymbolEnum;
-  priceUsd: number | null;
-  priceEuro: number | null;
-  updatedAt: Date;
+  quantity: number;
 }

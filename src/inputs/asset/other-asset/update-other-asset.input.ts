@@ -1,9 +1,11 @@
+import { AvailableCurrencyEnum } from "../../../enums/available-currency.enum";
+
 export interface UpdateOtherAssetInput {
-  id: string;
-  name?: string;
-  imageUrl?: string | null;
-  value?: number;
-  currency?: string;
-  iOwnShare?: number; // Between 0 and 100
-  loanId?: string | null;
+  id?: string; // If not provided, a new asset will be created
+  name: string;
+  value: number;
+  currency: AvailableCurrencyEnum;
+  gotLoan: boolean;
+  loanRepaymentCompleted: boolean;
+  iOwnShare: number; // Between 0 and 100
 }

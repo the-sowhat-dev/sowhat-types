@@ -1,3 +1,5 @@
+import { AvailableCurrencyEnum } from "../../../enums/available-currency.enum";
+
 export interface BankAccountBalancesResponse {
   /**
    * total balance for checking type accounts
@@ -19,8 +21,5 @@ export interface BankAccountBalancesResponse {
    */
   incomingSavings: number | null;
 
-  /**
-   * e.g. '€'
-   */
-  currency: string;
+  currency: AvailableCurrencyEnum;
 }

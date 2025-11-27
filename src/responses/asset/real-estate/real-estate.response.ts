@@ -1,4 +1,4 @@
-import { AvailableCurrencyEnum } from "../../../enums";
+import { AvailableCurrencyEnum } from "../../../enums/available-currency.enum";
 import { RealEstateTypeEnum } from "../../../enums/real-estate-type.enum";
 
 export interface RealEstateResponse {
