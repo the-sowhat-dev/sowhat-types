@@ -1,0 +1,9 @@
+export enum MaritalStatusEnum {
+  SINGLE = "SINGLE",
+  COUPLE = "COUPLE",
+  PACS = "PACS",
+  MARRIED = "MARRIED",
+  DIVORCED = "DIVORCED",
+  WIDOWED = "WIDOWED",
+  DONT_WANT_TO_SAY = "DONT_WANT_TO_SAY",
+}

@@ -6,6 +6,7 @@ export interface UserProfileResponse {
   currency: AvailableCurrencyEnum;
   status: UserStatusEnum;
   gotPowensUser: boolean;
+  expoToken: string | null;
   latestTermsOfUsageVersionConsented: string;
   latestPrivacyPolicyVersionConsented: string;
   createdAt: Date;

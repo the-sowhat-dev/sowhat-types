@@ -5,7 +5,7 @@ export interface UserAiSummaryResponse {
   status: UserAiSummaryStatusEnum;
   version: number;
   rawResponse: string | null;
-  parsedSummary: string | null;
+  parsedAdvisorResponseStringified: string | null;
   updatedAt: Date;
   createdAt: Date;
 }

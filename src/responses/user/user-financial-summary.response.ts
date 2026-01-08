@@ -1,8 +1,7 @@
-import { ProjectNeedEnum } from "../../enums/project-need.enum";
+import { AvailableCurrencyEnum } from "../../enums/available-currency.enum";
 
 export interface UserFinancialSummaryResponse {
-  currency: string;
-  projectNeeds: ProjectNeedEnum[];
+  currency: AvailableCurrencyEnum;
   totalRealEstatesValue: number | null;
   totalMobilitiesValue: number | null;
   totalOtherAssetsValue: number | null;
