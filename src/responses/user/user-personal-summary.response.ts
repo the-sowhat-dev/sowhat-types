@@ -6,6 +6,8 @@ export interface UserPersonalSummaryResponse {
   firstName: string | null;
   lastName: string | null;
   commercialEmail: string | null;
+  phoneNumber: string | null;
+  phoneNumberVerifiedAt: Date | null;
   birthYear: number | null;
   childrenNumber: number | null;
   childrenBirthYears: number[] | null;

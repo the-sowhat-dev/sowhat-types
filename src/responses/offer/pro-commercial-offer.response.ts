@@ -1,4 +1,4 @@
-import { OfferStatus } from "../../enums";
+import { OfferStatusEnum } from "../../enums";
 
 /**
  * Commercial offer for Pro Platform users = Pros
@@ -7,8 +7,8 @@ export interface ProCommercialOfferResponse {
   id: string;
   leadUserId: string;
   message: string;
-  status: OfferStatus;
+  status: OfferStatusEnum;
   seenByUser: Date | null;
-  sendAt: Date;
+  sentAt: Date;
   updatedAt: Date;
 }

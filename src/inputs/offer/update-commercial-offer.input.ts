@@ -1,7 +1,8 @@
-import { OfferStatus } from "../../enums/offer-status.enum";
+import { OfferStatusEnum } from "../../enums/offer-status.enum";
 
 export interface UpdateCommercialOfferInput {
+  id: string;
   message?: string;
-  status?: OfferStatus;
+  status?: OfferStatusEnum;
   seenByUser?: Date;
 }

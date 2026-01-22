@@ -1,5 +1,5 @@
 import { ProResponse } from "../pro";
-import { OfferStatus } from "../../enums/offer-status.enum";
+import { OfferStatusEnum } from "../../enums/offer-status.enum";
 
 /**
  * Commercial offer for invstore application users
@@ -7,9 +7,10 @@ import { OfferStatus } from "../../enums/offer-status.enum";
 export interface UserCommercialOfferResponse {
   id: string;
   pro: ProResponse;
+  proProfileImageUrl: string | null;
   message: string;
-  status: OfferStatus;
+  status: OfferStatusEnum;
   seenByUser: Date | null;
-  sendAt: Date;
+  sentAt: Date;
   updatedAt: Date;
 }

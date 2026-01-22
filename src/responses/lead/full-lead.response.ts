@@ -8,9 +8,18 @@ import { AvailableCurrencyEnum } from "../../enums/available-currency.enum";
 import { PersonalSalaryRangeEnum } from "../../enums/personal-salary-range.enum";
 import { HouseholdSalaryRangeEnum } from "../../enums/household-salary-range.enum";
 import { PersonalNetWorthRangeEnum } from "../../enums/personal-net-worth-range.enum";
+import { ProCommercialOfferResponse } from "../offer/pro-commercial-offer.response";
 
 export interface FullLeadResponse {
   userId: string;
+  updatedAt: Date; // user.updatedAt
+
+  // identity (available only is offer is accepted)
+  firstName: string | null;
+  lastName: string | null;
+  email: string | null;
+  phoneNumber: string | null;
+  phoneNumberVerifiedAt: Date | null;
 
   // project
   initialAmount: number | null;
@@ -51,4 +60,12 @@ export interface FullLeadResponse {
 
   // ai summary
   aiSummary: LeadAiSummaryResponse | null;
+
+  // offer made by the pro that calling it
+  offer: ProCommercialOfferResponse | null;
+  totalOffersReceived: number;
+  totalOffersAccepted: number;
+
+  // liked at
+  likedAt: Date | null;
 }

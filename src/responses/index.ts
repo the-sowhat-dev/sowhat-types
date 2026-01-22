@@ -13,6 +13,9 @@ export * from "./lead";
 // Legal
 export * from "./legal";
 
+// Like
+export * from "./like";
+
 // Offer
 export * from "./offer";
 

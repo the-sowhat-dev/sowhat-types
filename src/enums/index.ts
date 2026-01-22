@@ -14,6 +14,7 @@ export * from "./mobility-type.enum";
 export * from "./offer-status.enum";
 export * from "./personal-net-worth-range.enum";
 export * from "./personal-salary-range.enum";
+export * from "./phone-verification-status.enum";
 export * from "./powens-connection-state.enum";
 export * from "./powens-user-status.enum";
 export * from "./profession-status.enum";

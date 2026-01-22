@@ -1,3 +1,4 @@
+export * from "./departments";
 export * from "./financial-product";
 export * from "./household-salary-range";
 export * from "./marital-status";
