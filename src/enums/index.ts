@@ -1,3 +1,5 @@
+export * from "./pro";
+
 export * from "./asset-type.enum";
 export * from "./available-cryptocurrency-symbol.enum";
 export * from "./available-currency.enum";

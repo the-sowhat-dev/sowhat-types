@@ -1,3 +1,6 @@
+import { ProStatusEnum } from "../../enums/pro/pro-status.enum";
+import { ProCertificationEnum } from "../../enums/pro/pro-certification.enum";
+
 export interface ProResponse {
   id: string;
   clerkId: string;
@@ -9,8 +12,10 @@ export interface ProResponse {
   companyName: string | null;
   companyDescription: string | null;
   sirenId: string | null;
-  amfId: string | null;
   oriasId: string | null;
+  certifications: ProCertificationEnum[];
+  status: ProStatusEnum;
+  notificationEmail: string | null;
   updatedAt: Date;
   createdAt: Date;
 }

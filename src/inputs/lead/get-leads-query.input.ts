@@ -1,5 +1,7 @@
 import { ProjectNeedEnum } from "../../enums/project-need.enum";
 import { FinancialProductEnum } from "../../enums/financial-product.enum";
+import { PersonalSalaryRangeEnum } from '../../enums/personal-salary-range.enum';
+import { PersonalNetWorthRangeEnum } from '../../enums/personal-net-worth-range.enum';
 
 export interface GetLeadsQueryInput {
   // Filters
@@ -8,6 +10,9 @@ export interface GetLeadsQueryInput {
 
   needs?: ProjectNeedEnum[];
   financialProducts?: FinancialProductEnum[];
+
+  personalSalaryRanges?: PersonalSalaryRangeEnum[];
+  personalNetWorthRanges?: PersonalNetWorthRangeEnum[];
 
   onlyWithoutProduct?: boolean;
 

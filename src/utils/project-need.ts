@@ -10,7 +10,7 @@ export const ProjectNeeds: ProjectNeed[] = [
   {
     key: ProjectNeedEnum.WEALTH_ASSESSMENT,
     userLabel:
-      "Je n'ai pas d'idée précise, j'aimerais recevoir des conseils et offres adaptés à ma situation.",
+      "Je n'ai pas d'idée précise, j'aimerais recevoir des conseils et messages adaptés à ma situation.",
     proLabel:
       "Pas d'idée précise, souhaite recevoir des conseils et offres adaptés à sa situation.",
   },

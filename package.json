@@ -1,6 +1,6 @@
 {
   "name": "sowhat-types",
-  "version": "2.0.244",
+  "version": "2.0.258",
   "description": "Sowhat types",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

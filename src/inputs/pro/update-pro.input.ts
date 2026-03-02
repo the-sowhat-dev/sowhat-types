@@ -1,3 +1,5 @@
+import { ProCertificationEnum } from "../../enums/pro/pro-certification.enum";
+
 export interface UpdateProInput {
   clerkId: string;
   firstName?: string | null;
@@ -6,7 +8,8 @@ export interface UpdateProInput {
   presentation?: string | null;
   companyName?: string | null;
   companyDescription?: string | null;
+  certifications?: ProCertificationEnum[] | null;
   sirenId?: string | null;
-  amfId?: string | null;
   oriasId?: string | null;
+  notificationEmail?: string | null;
 }

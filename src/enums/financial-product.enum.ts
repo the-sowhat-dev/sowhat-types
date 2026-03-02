@@ -11,5 +11,7 @@ export enum FinancialProductEnum {
   EPARGNE_SALARIALE = "EPARGNE_SALARIALE",
   SCPI = "SCPI",
   PRIVATE_EQUITY = "PRIVATE_EQUITY",
+  PEL = "PEL",
   OTHER = "OTHER",
+
 }

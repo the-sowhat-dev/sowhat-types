@@ -9,6 +9,10 @@ export interface ProCommercialOfferResponse {
   message: string;
   status: OfferStatusEnum;
   seenByUser: Date | null;
+  acceptedByUserAt: Date | null;
+  rejectedByUserAt: Date | null;
+  archivedByProAt: Date | null;
+  rejectedReason: string | null;
   sentAt: Date;
   updatedAt: Date;
 }

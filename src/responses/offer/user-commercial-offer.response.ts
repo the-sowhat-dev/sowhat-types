@@ -10,7 +10,11 @@ export interface UserCommercialOfferResponse {
   proProfileImageUrl: string | null;
   message: string;
   status: OfferStatusEnum;
+  acceptedByUserAt: Date | null;
+  rejectedByUserAt: Date | null;
+  archivedByUserAt: Date | null;
   seenByUser: Date | null;
+  rejectedReason: string | null;
   sentAt: Date;
   updatedAt: Date;
 }

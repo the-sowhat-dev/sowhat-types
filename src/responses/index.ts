@@ -29,6 +29,9 @@ export * from "./powens/powens-connect-webview.response";
 // Pro
 export * from "./pro";
 
+// Pro Alert
+export * from "./pro-alert";
+
 // Project
 export * from "./project";
 

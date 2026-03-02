@@ -18,6 +18,7 @@ export const FinancialProducts: FinancialProduct[] = [
   { key: FinancialProductEnum.EPARGNE_SALARIALE, label: "Épargne salariale" },
   { key: FinancialProductEnum.SCPI, label: "SCPI" },
   { key: FinancialProductEnum.PRIVATE_EQUITY, label: "Private equity" },
+  { key: FinancialProductEnum.PEL, label: "PEL" },
   { key: FinancialProductEnum.OTHER, label: "Autre" },
 ];
 

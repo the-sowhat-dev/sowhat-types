@@ -1,6 +1,7 @@
 export enum ProfessionStatusEnum {
   STUDENT = "STUDENT",
   INTERIM = "INTERIM",
+  CIVIL_SERVANT = "CIVIL_SERVANT",
   CDD = "CDD",
   CDI = "CDI",
   INDEPENDANT = "INDEPENDANT",
