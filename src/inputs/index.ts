@@ -1,6 +1,9 @@
 // Asset
 export * from "./asset";
 
+// Billing
+export * from "./billing";
+
 // Lead
 export * from "./lead";
 

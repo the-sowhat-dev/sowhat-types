@@ -17,3 +17,7 @@ export * from "./other-asset/other-asset.response";
 // Real Estate
 export * from "./real-estate/real-estate-deleted.response";
 export * from "./real-estate/real-estate.response";
+
+// User Assets
+export * from "./user-assets-balances.response";
+export * from "./user-assets.response";

@@ -4,6 +4,7 @@ export interface ManualInitializeProInput {
   email: string;
   companyWebsite: string;
   companyName: string;
-  oriasId: string;
+  oriasId: string | null;
   sirenId: string;
+  regulation: string | null;
 }

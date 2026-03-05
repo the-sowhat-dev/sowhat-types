@@ -11,5 +11,6 @@ export interface UpdateProInput {
   certifications?: ProCertificationEnum[] | null;
   sirenId?: string | null;
   oriasId?: string | null;
+  regulation?: string | null;
   notificationEmail?: string | null;
 }

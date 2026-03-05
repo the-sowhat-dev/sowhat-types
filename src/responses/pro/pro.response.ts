@@ -13,6 +13,7 @@ export interface ProResponse {
   companyDescription: string | null;
   sirenId: string | null;
   oriasId: string | null;
+  regulation: string | null;
   certifications: ProCertificationEnum[];
   status: ProStatusEnum;
   notificationEmail: string | null;
