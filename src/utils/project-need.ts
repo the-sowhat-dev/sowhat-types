@@ -61,6 +61,11 @@ export const ProjectNeeds: ProjectNeed[] = [
     userLabel: "J'ai peur de l'imprévu et envisage de constituer une épargne de sécurité.",
     proLabel: "Souhaite constituer une épargne de sécurité.",
   },
+  {
+    key: ProjectNeedEnum.INVEST_IN_REAL_ESTATE,
+    userLabel: "Je souhaite investir dans l'immobilier.",
+    proLabel: "Souhaite investir dans l'immobilier.",
+  },
 ];
 
 export function getProjectNeedUserLabel(key: ProjectNeedEnum): string {

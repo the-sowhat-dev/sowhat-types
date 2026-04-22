@@ -7,10 +7,10 @@ export interface UpdateProInput {
   role?: string | null;
   presentation?: string | null;
   companyName?: string | null;
+  companyWebsite?: string | null;
   companyDescription?: string | null;
   certifications?: ProCertificationEnum[] | null;
   sirenId?: string | null;
   oriasId?: string | null;
-  regulation?: string | null;
   notificationEmail?: string | null;
 }

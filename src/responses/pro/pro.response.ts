@@ -11,6 +11,7 @@ export interface ProResponse {
   companyImage: string | null;
   companyName: string | null;
   companyDescription: string | null;
+  companyWebsite: string | null;
   sirenId: string | null;
   oriasId: string | null;
   regulation: string | null;

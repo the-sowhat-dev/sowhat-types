@@ -17,8 +17,10 @@ export interface UserPersonalSummaryResponse {
   salaryRange: string | null;
   postalCode: string | null;
   loanMonthlyPayment: number | null;
+  haveLoan: boolean | null;
   financialProductsOwned: FinancialProductEnum[] | null;
   isMainResidenceOwner: boolean | null;
+  haveDependentChildren: boolean | null;
   personalNetWorthRange: string | null;
   grossAnnualHouseholdIncomeRange: string | null;
 }

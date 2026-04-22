@@ -1,3 +1,6 @@
+// Article
+export * from "./article";
+
 // Asset
 export * from "./asset";
 

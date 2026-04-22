@@ -16,8 +16,10 @@ export interface UpdateUserPersonalSummaryInput {
   professionStatus?: ProfessionStatusEnum | null;
   postalCode?: string | null; // e.g. "06200", "32000", "LIVES_OUTSIDE_FRANCE", null
   loanMonthlyPayment?: number | null;
+  haveLoan?: boolean | null;
   financialProductsOwned?: FinancialProductEnum[] | null;
   isMainResidenceOwner?: boolean | null;
+  haveDependentChildren?: boolean | null;
   personalNetWorthRange?: string | null;
   grossAnnualHouseholdIncomeRange?: string | null;
 }

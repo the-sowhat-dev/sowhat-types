@@ -10,6 +10,7 @@ export interface LeadResponse {
   financialProductsOwned: FinancialProductEnum[] | null;
   postalCode: string | null;
   totalOffersReceived: number;
+  totalOffersAccepted: number;
   professionStatus: ProfessionStatusEnum | null;
   birthYear: number | null;
   likedAt: Date | null;

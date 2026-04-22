@@ -2,15 +2,10 @@ import { ProjectNeedEnum } from "../../enums/project-need.enum";
 import { ProjectOptionEnum } from "../../enums/project-option.enum";
 import { FinancialProductEnum } from "../../enums/financial-product.enum";
 
-/**
- * @deprecated Use OnboardingDataInput instead
- * deprecated since April 2026
- */
-export interface CreateProjectInput {
+export interface OnboardingProjectInput {
   option: ProjectOptionEnum;
-  initialAmount: number;
-  monthlyAmount: number;
   need: ProjectNeedEnum;
   financialProduct: FinancialProductEnum | null;
-  note: string | null;
+  initialValue: number;
+  monthlyValue: number;
 }
